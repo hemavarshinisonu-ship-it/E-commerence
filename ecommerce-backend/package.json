@@ -1,11 +1,11 @@
 {
   "name": "ecommerce-backend",
   "version": "1.0.0",
-  "description": "Node.js Express + MySQL E-commerce API with Wishlist support",
+  "description": "Node.js Express E-commerce API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -14,5 +14,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

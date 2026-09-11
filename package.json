@@ -2,8 +2,15 @@
   "name": "luxe-store",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "ecommerce-frontend",
+    "ecommerce-backend"
+  ],
   "scripts": {
-    "build": "cd ecommerce-frontend && npm install && npm run build",
-    "start": "cd ecommerce-backend && npm start"
+    "build": "npm run build --workspace=ecommerce-frontend",
+    "start": "npm start --workspace=ecommerce-backend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
