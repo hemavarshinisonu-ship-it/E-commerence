@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+ecommerce-backend/node_modules/
+ecommerce-frontend/node_modules/
+
+# Production build outputs
+dist/
+ecommerce-frontend/dist/
+
+# Environment files
+.env
+ecommerce-backend/.env
+!.env.example
+!ecommerce-backend/.env.example
+
+# Logs & OS artifacts
+*.log
+.DS_Store
+Thumbs.db
